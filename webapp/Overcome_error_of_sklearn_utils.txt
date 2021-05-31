@@ -1,0 +1,15 @@
+# Go to command prompt
+#create a new environment with python 3.6
+conda create -n yourenvname python=3.6
+
+conda activate yourenvname
+
+# install the package manually(one by one)
+conda install -c conda-forge scikit-learn=0.22.2
+conda install pandas=1.0.5
+conda install nltk=3.5
+conda install -c conda-forge streamlit=0.76.0
+conda install Pillow=8.1.0
+
+# go to the directory of the repo
+streamlit run hello.py
