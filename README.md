@@ -20,8 +20,9 @@ After adding the other two datasets it became more balanced, which helped to cor
 The methodology used in this project was an EDA on the tweets, cleaning of the datasets, creation of the online app, creation of the models and then the testing of the app.
 
 ## Result:
-After trying multiple models, Random Forest, Naive Bayes, Logistic Regression, Support Vector Machine (SVM) and a Neural Network, the best result was from the SVM model with an TF-IDF Vectorization. It had an F1 score of 0.89 and a Recall score of 0.92
-![Confusion Matrix_SVM](/webapp/visualization/svm_model.png). Recall was chosen as the benchmark as it was more important to get as many potential hate or offense tweets as possible.  
+After trying multiple models, Random Forest, Naive Bayes, Logistic Regression, Support Vector Machine (SVM) and a Neural Network, the best result was from the SVM model with an TF-IDF Vectorization. It had an F1 score of 0.89 and a Recall score of 0.897
+![Confusion Matrix_SVM](/webapp/visualization/svm_model.png) 
+Recall was chosen as the benchmark as it was more important to get as many potential hate or offense tweets as possible.  
 
 The results of all the models are seen here.
 ![Model result](/Images/model_result.png)
