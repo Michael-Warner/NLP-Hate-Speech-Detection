@@ -33,6 +33,7 @@ The results from the [Neural Network](https://colab.research.google.com/drive/1B
 ## Conclusion:
 A larger dataset would make the model more effective but the debate of what is considered hate speech, offensive or neither is very subjective and changes per person. This makes it difficult to label datasets correctly.
 
+## Appendix 
 There are 4 pages of the application : Classification of the Tweets/Sentences, Business Problem, Exploratory Data Analysis and our model deployed. 
 ### Screenshots of the APP :
 ![App Screenshot 1](/Images/app_screenshot_1.png)
