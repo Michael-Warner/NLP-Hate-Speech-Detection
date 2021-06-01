@@ -12,9 +12,9 @@ View the Web APP [here](https://hate-speech-detection-tbs.herokuapp.com).
 ## Dataset:
 There were three datasets used to train the model. The base dataset was from [Thomas Davidson, Dana Warmsley, Michael Macy, and Ingmar Weber(2017)](https://data.world/thomasrdavidson/hate-speech-and-offensive-language). The second dataset was from [Jing Qian, Anna Bethke, Yinyin Liu, Elizabeth Belding, William Yang Wang(2019)](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech). The last dataset was from [Kaggle](https://www.kaggle.com/dv1453/twitter-sentiment-analysis-analytics-vidya?select=train_E6oV3lV.csv) provided by [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/#LeaderBoard).
 
-The original dataset, from Davidson et al., had three variables of hate speech, offensive speech or neither. The other two datasets were labelled as hate speech or not hate speech. The reason for adding the other two datasets was because the original dataset was unbalanced.
+The original dataset, from Davidson et al., had labeled each tweet in one of three ways, hate speech, offensive speech or neither. The other two datasets were labelled only as hate speech or not hate speech. The reason for adding the other two datasets was because the original dataset was unbalanced.
 ![unbalanced dataset](/Images/unbalanced_dataset.png)
-After adding the other two datasets it became more balanced, which helped to correctly train the models.
+After adding the other two datasets it became more balanced, which helped correctly train the models.
 
 ## Method:
 The methodology used in this project was an EDA on the tweets, cleaning of the datasets, creation of the online app, creation of the models and then the testing of the app.
